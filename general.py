@@ -10,7 +10,7 @@ class general(commands.Cog):
     @commands.command(aliases=['speed','connection'])
     async def ping(self, ctx):
         embed1 = discord.Embed(
-            description=f":eyes: {round(self.client.latency * 1000)}ms",
+            description=f":eyes: {round(self.client.latency * 1000)} ms",
             colour=discord.Color.from_rgb(183,142,255)
         )
         await ctx.send(embed=embed1)

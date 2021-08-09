@@ -21,3 +21,6 @@ Steps to build the bot :
 >- Setup the bot so that it can save the `quoted` text to a file named `code.py`
 
 >- Found that I should do something like _[ThreadPoolExecutor](https://tutorialedge.net/python/concurrency/python-threadpoolexecutor-tutorial/), [ThreadPoolExecutor](https://tutorialedge.net/python/concurrency/python-processpoolexecutor-tutorial/)_
+
+>- Helpful Articles:
+-[Reading a replied Message](https://stackoverflow.com/questions/67100856/how-can-i-read-the-message-that-someone-replied-to-in-discord-py)

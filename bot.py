@@ -62,10 +62,10 @@ async def load(ctx, extension):
         await ctx.send(embed=embed_valid_cog)
     try:
         client.load_extension(extension)
-        embed_load = discord.Embed(title = "CodeRunner",description = f"Loaded **{extension}.**",colour=discord.Color.from_rgb(183,142,255))
+        embed_load = discord.Embed(title = "CodeRunner",description = f"Loaded **{extension}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_load)
     except Exception as error:
-        embed_load_error = discord.Embed(title = "CodeRunner",description = f"Failed to load cog **{extension}.**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
+        embed_load_error = discord.Embed(title = "CodeRunner",description = f"Failed to load cog **{extension}**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_load_error)
 
 
@@ -78,10 +78,10 @@ async def unload(ctx, extension):
         await ctx.send(embed=embed_valid_cog)
     try:
         client.unload_extension(extension)
-        embed_unload = discord.Embed(title = "CodeRunner",description = f"Unloaded **{extension}.**",colour=discord.Color.from_rgb(183,142,255))
+        embed_unload = discord.Embed(title = "CodeRunner",description = f"Unloaded **{extension}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_unload)
     except Exception as error:
-        embed_unload_error = discord.Embed(title = "CodeRunner",description = f"Failed to unload cog **{extension}.**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
+        embed_unload_error = discord.Embed(title = "CodeRunner",description = f"Failed to unload cog **{extension}**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_unload_error)
 
 
@@ -94,10 +94,10 @@ async def reload(ctx, extension):
     try:
         client.unload_extension(extension)
         client.load_extension(extension)
-        embed_reload = discord.Embed(title = "CodeRunner",description = f"Reloaded **{extension}.**",colour=discord.Color.from_rgb(183,142,255))
+        embed_reload = discord.Embed(title = "CodeRunner",description = f"Reloaded **{extension}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_reload)
     except Exception as error:
-        embed_reload_error = discord.Embed(title = "CodeRunner",description = f"Failed to reload cog **{extension}.**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
+        embed_reload_error = discord.Embed(title = "CodeRunner",description = f"Failed to reload cog **{extension}**. Reason: **{error}**",colour=discord.Color.from_rgb(183,142,255))
         await ctx.send(embed=embed_reload_error)
 
 
