@@ -17,3 +17,7 @@ Steps to build the bot :
 >- Setup a basic layout for the Discord Bot
 
 >- Learn how online compilers work to get and idea about how the errors are handled and the cosole output is printed.
+
+>- Setup the bot so that it can save the `quoted` text to a file named `code.py`
+
+>- Found that I should do something like _[ThreadPoolExecutor](https://tutorialedge.net/python/concurrency/python-threadpoolexecutor-tutorial/), [ThreadPoolExecutor](https://tutorialedge.net/python/concurrency/python-processpoolexecutor-tutorial/)_
