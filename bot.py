@@ -40,7 +40,7 @@ embed_logout_error = discord.Embed(
 
 
 if __name__ == "__main__":
-    extensions = {"general","code"}
+    extensions = {"general","code","mail"}
     for extension in extensions:
         try:
             client.load_extension(extension)
